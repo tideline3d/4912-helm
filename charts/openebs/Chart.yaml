@@ -1,0 +1,8 @@
+apiVersion: v2
+name: openebs
+version: 0.1.0
+description: OpenEBS for Cluster42
+dependencies:
+  - name: openebs
+    version: 4.1.3
+    repository: https://openebs.github.io/openebs
