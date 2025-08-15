@@ -3,3 +3,10 @@ grafana:
     type: ClusterIP
   persistence:
     enabled: false
+  rbac:
+    create: true
+    pspEnabled: false
+    namespaced: true
+  serviceAccount:
+    create: true
+    name: grafana
